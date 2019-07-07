@@ -34,8 +34,8 @@ def donothing():
     pass
 
 # size of the window
-WIDTH = 1000
-HEIGHT = 600
+WIDTH = 1800
+HEIGHT = 1200
 
 # index to select filter
 filterIndex = 0
@@ -60,7 +60,7 @@ filterIndicator = tk.Label(frame, text="Filter", fg="white", bg="black",
 filterIndicator.place(relx=0.4, rely=0, relwidth=0.2, relheight=0.1)
 
 # label that shows the current image
-pic = tk.Label(frame, image=image, height=400, width=600)
+pic = tk.Label(frame, image=image)
 pic.place(relx=0.2, rely=0.1, relwidth=0.6, relheight=0.8)
 
 # buttons to switch filters
